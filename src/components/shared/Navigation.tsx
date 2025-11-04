@@ -42,7 +42,7 @@ export function Navigation({ discipline }: NavigationProps) {
               className="object-contain"
               priority
             />
-            <span className={cn('text-lg lg:text-xl font-semibold tracking-tight transition-colors', accentColor)}>
+            <span className={cn('text-lg lg:text-xl font-display font-semibold tracking-tight transition-colors', accentColor)}>
               {discipline === 'culinary' ? 'CULINARY' : 'FASHION'}
             </span>
           </Link>
