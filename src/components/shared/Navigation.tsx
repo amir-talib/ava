@@ -56,7 +56,7 @@ export function Navigation({ discipline }: NavigationProps) {
                   key={item.href}
                   href={item.href}
                   className={cn(
-                    'px-5 py-2.5 text-sm font-medium transition-colors rounded-sm',
+                    'px-5 py-2.5 text-sm font-sans font-medium transition-colors rounded-sm',
                     isActive
                       ? accentColor
                       : 'text-neutral-600 hover:text-neutral-900'
@@ -72,7 +72,7 @@ export function Navigation({ discipline }: NavigationProps) {
           <div className="hidden lg:block">
             <Link
               href={`${basePath}/admissions`}
-              className="btn-primary text-sm px-6 py-2.5"
+              className="btn-primary font-sans text-sm px-6 py-2.5"
             >
               Apply Now
             </Link>
@@ -100,7 +100,7 @@ export function Navigation({ discipline }: NavigationProps) {
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
                     className={cn(
-                      'px-4 py-3.5 text-base font-medium transition-colors rounded-sm',
+                      'px-4 py-3.5 text-base font-sans font-medium transition-colors rounded-sm',
                       isActive
                         ? accentColor
                         : 'text-neutral-600 hover:text-neutral-900 hover:bg-neutral-50'
@@ -113,7 +113,7 @@ export function Navigation({ discipline }: NavigationProps) {
               <Link
                 href={`${basePath}/admissions`}
                 onClick={() => setMobileMenuOpen(false)}
-                className="btn-primary mt-6 w-full text-center"
+                className="btn-primary font-sans mt-6 w-full text-center"
               >
                 Apply Now
               </Link>
