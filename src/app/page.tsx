@@ -4,10 +4,45 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { StructuredData } from '@/components/shared/StructuredData'
 
 export default function LandingPage() {
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'EducationalOrganization',
+    name: 'Ace Vocational Academy',
+    description: 'Industry-leading institution offering world-class Culinary and Fashion programs. Transform your passion into profession.',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://acevocationalacademy.com',
+    logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://acevocationalacademy.com'}/favicon.png`,
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'NG',
+    },
+    sameAs: [],
+    areaServed: {
+      '@type': 'Country',
+      name: 'Nigeria',
+    },
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: process.env.NEXT_PUBLIC_SITE_URL || 'https://acevocationalacademy.com',
+      },
+    ],
+  }
+
   return (
-    <div className="h-screen md:h-screen overflow-y-auto md:overflow-hidden bg-neutral-950">
+    <>
+      <StructuredData data={organizationSchema} />
+      <StructuredData data={breadcrumbSchema} />
+      <div className="h-screen md:h-screen overflow-y-auto md:overflow-hidden bg-neutral-950">
       {/* Header - Minimal */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
         <div className="container-custom py-4 md:py-5 lg:py-6">
@@ -160,7 +195,8 @@ export default function LandingPage() {
           </div>
         </div>
       </main>
-    </div>
+      </div>
+    </>
   )
 }
 
