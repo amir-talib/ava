@@ -95,12 +95,12 @@ export function Footer({ discipline }: FooterProps) {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin size={16} className="mt-1 flex-shrink-0" />
-                <span>123 Excellence Avenue, Victoria Island, Lagos, Nigeria</span>
+                <span>Midland House Plot C8 Road 521 Gwarinpa 11 Suit A6-B10, Abuja, Nigeria</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={16} className="flex-shrink-0" />
-                <a href="tel:+2341234567890" className="hover:text-white transition-colors">
-                  +234 123 456 7890
+                <a href="tel:+2348142980728" className="hover:text-white transition-colors">
+                  +234 814 298 0728
                 </a>
               </li>
               <li className="flex items-center space-x-2">

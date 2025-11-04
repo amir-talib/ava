@@ -24,12 +24,12 @@ export default function ContactPage() {
     {
       icon: <MapPin className="text-culinary-600" size={24} />,
       title: 'Visit Us',
-      details: ['123 Excellence Avenue', 'Victoria Island, Lagos', 'Nigeria'],
+      details: ['Midland House Plot C8 Road 521', 'Gwarinpa 11 Suit A6-B10', 'Abuja, Nigeria'],
     },
     {
       icon: <Phone className="text-culinary-600" size={24} />,
       title: 'Call Us',
-      details: ['+234 123 456 7890', '+234 123 456 7891', '(Mon - Fri, 8am - 6pm)'],
+      details: ['+234 814 298 0728', '(Mon - Sat, 9am - 5pm)'],
     },
     {
       icon: <Mail className="text-culinary-600" size={24} />,
@@ -188,9 +188,27 @@ export default function ContactPage() {
                 <h2 className="text-display-sm font-semibold mb-6">
                   Find Us
                 </h2>
-                {/* Map Placeholder */}
-                <div className="bg-neutral-200 aspect-square border border-neutral-300 flex items-center justify-center">
-                  <p className="text-neutral-500 text-sm">[Interactive Map]</p>
+                {/* Interactive Google Map */}
+                <div className="aspect-square border border-neutral-300 overflow-hidden rounded-sm">
+                  <iframe
+                    src="https://www.google.com/maps?q=Midland+House+Plot+C8+Road+521+Gwarinpa+11+Suit+A6-B10+Abuja+Nigeria&output=embed"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Ace Vocational Academy Location"
+                    className="w-full h-full"
+                  />
+                </div>
+                <div className="mt-4 p-4 bg-neutral-50 border border-neutral-200 rounded-sm">
+                  <p className="text-sm text-neutral-700 font-medium mb-1">Address:</p>
+                  <p className="text-sm text-neutral-600">
+                    Midland House Plot C8 Road 521<br />
+                    Gwarinpa 11 Suit A6-B10<br />
+                    Abuja, Nigeria
+                  </p>
                 </div>
               </div>
 

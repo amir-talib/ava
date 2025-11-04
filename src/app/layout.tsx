@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, DM_Serif_Display } from 'next/font/google'
 import '@/styles/globals.css'
+import { ScrollToTop } from '@/components/shared/ScrollToTop'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -96,6 +97,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${dmSerifDisplay.variable}`}>
       <body className={inter.className}>
+        <ScrollToTop />
         {children}
       </body>
     </html>
