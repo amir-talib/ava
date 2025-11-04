@@ -54,6 +54,7 @@ const config: Config = {
         sans: ['var(--font-inter)', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
         display: ['var(--font-dm-serif)', 'Georgia', 'serif'],
         serif: ['var(--font-dm-serif)', 'Georgia', 'serif'],
+        brand: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         'display-xl': ['4.5rem', { lineHeight: '1.1', letterSpacing: '-0.02em' }],

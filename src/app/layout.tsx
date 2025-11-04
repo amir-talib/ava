@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, DM_Serif_Display } from 'next/font/google'
+import { Inter, DM_Serif_Display, Outfit } from 'next/font/google'
 import '@/styles/globals.css'
 import { ScrollToTop } from '@/components/shared/ScrollToTop'
 
@@ -14,6 +14,13 @@ const dmSerifDisplay = DM_Serif_Display({
   subsets: ['latin'],
   weight: ['400'],
   variable: '--font-dm-serif',
+  display: 'swap',
+})
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-outfit',
   display: 'swap',
 })
 
@@ -95,7 +102,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${dmSerifDisplay.variable}`}>
+    <html lang="en" className={`${inter.variable} ${dmSerifDisplay.variable} ${outfit.variable}`}>
       <body className={inter.className}>
         <ScrollToTop />
         {children}
