@@ -11,9 +11,9 @@ export default function LandingPage() {
       {/* Header - Minimal */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
         <div className="container-custom py-4 md:py-5 lg:py-6">
-          <Link href="/" className="flex items-center space-x-2 md:space-x-3">
+          <Link href="/" className="flex items-center justify-center space-x-2 md:space-x-3">
             <Image
-              src="/ava-logo.png"
+              src="/ava-logo-dark.png"
               alt="Ace Vocational Academy"
               width={36}
               height={36}
