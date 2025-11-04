@@ -85,13 +85,13 @@ export default function LandingPage() {
 
           {/* Path Selection - Split Screen */}
           <div className="flex-1 grid md:grid-cols-2 gap-0 min-h-0">
-            {/* Culinary Path */}
-            <motion.div
+              {/* Culinary Path */}
+              <motion.div
               initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
+                animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.2 }}
               className="relative group min-h-[50vh] md:h-full overflow-hidden"
-            >
+              >
               <Link href="/culinary" className="block h-full min-h-[50vh] md:min-h-0">
                 {/* Background Image */}
                 <div className="absolute inset-0">
@@ -103,7 +103,7 @@ export default function LandingPage() {
                     priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-culinary-900/60 to-black/80 group-hover:from-black/60 group-hover:via-culinary-900/50 group-hover:to-black/70 transition-all duration-500" />
-                </div>
+                      </div>
 
                 {/* Content */}
                 <div className="relative h-full min-h-[50vh] md:min-h-0 flex flex-col justify-center items-center p-6 md:p-8 lg:p-12">
@@ -118,31 +118,31 @@ export default function LandingPage() {
                       </p>
                       <div className="h-px w-8 md:w-12 bg-gradient-to-r from-culinary-400 via-transparent to-transparent" />
                     </div>
-                    
+
                     <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-normal text-white mb-4 md:mb-6 leading-tight" style={{ textShadow: '0 4px 20px rgba(0, 0, 0, 0.4)' }}>
-                      Culinary Arts
-                    </h2>
+                          Culinary Arts
+                        </h2>
                     
                     <p className="text-base md:text-lg text-white/80 mb-6 md:mb-8 leading-relaxed px-2">
                       Master the art of gastronomy with world-class training
-                    </p>
+                        </p>
                     
                     <div className="inline-flex items-center gap-2 md:gap-3 text-white font-medium px-6 md:px-8 py-3 md:py-4 text-sm md:text-base border border-white/30 backdrop-blur-sm bg-white/5 group-hover:bg-culinary-600 group-hover:border-culinary-600 transition-all duration-300">
-                      <span>Explore Program</span>
+                          <span>Explore Program</span>
                       <ArrowRight size={18} className="md:w-5 md:h-5 transform transition-transform group-hover:translate-x-2" />
                     </div>
                   </div>
 
                   {/* Bottom accent */}
                   <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-culinary-500 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700" />
-                </div>
-              </Link>
-            </motion.div>
+                  </div>
+                </Link>
+              </motion.div>
 
-            {/* Fashion Path */}
-            <motion.div
+              {/* Fashion Path */}
+              <motion.div
               initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
+                animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.4 }}
               className="relative group min-h-[50vh] md:h-full overflow-hidden border-t md:border-t-0 md:border-l border-white/10"
             >
@@ -157,7 +157,7 @@ export default function LandingPage() {
                     priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-br from-black/75 via-fashion-900/55 to-black/85 group-hover:from-black/65 group-hover:via-fashion-900/45 group-hover:to-black/75 transition-all duration-500" />
-                </div>
+                      </div>
 
                 {/* Content */}
                 <div className="relative h-full min-h-[50vh] md:min-h-0 flex flex-col justify-center items-center p-6 md:p-8 lg:p-12">
@@ -172,30 +172,30 @@ export default function LandingPage() {
                       </p>
                       <div className="h-px w-8 md:w-12 bg-gradient-to-r from-fashion-400 via-transparent to-transparent" />
                     </div>
-                    
+
                     <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-normal text-white mb-4 md:mb-6 leading-tight tracking-tight" style={{ textShadow: '0 4px 20px rgba(0, 0, 0, 0.4)' }}>
-                      Fashion Design
-                    </h2>
+                          Fashion Design
+                        </h2>
                     
                     <p className="text-base md:text-lg text-white/80 mb-6 md:mb-8 leading-relaxed font-light px-2">
                       Shape the future with cutting-edge design education
-                    </p>
+                        </p>
                     
                     <div className="inline-flex items-center gap-2 md:gap-3 text-white font-medium px-6 md:px-8 py-3 md:py-4 text-sm md:text-base border border-white/30 backdrop-blur-sm bg-white/5 group-hover:bg-fashion-600 group-hover:border-fashion-600 transition-all duration-300 rounded-none">
-                      <span>Explore Program</span>
+                          <span>Explore Program</span>
                       <ArrowRight size={18} className="md:w-5 md:h-5 transform transition-transform group-hover:translate-x-2" />
                     </div>
                   </div>
 
                   {/* Bottom accent */}
                   <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-fashion-500 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700" />
-                </div>
-              </Link>
+            </div>
+                </Link>
             </motion.div>
           </div>
         </div>
       </main>
-      </div>
+    </div>
     </>
   )
 }

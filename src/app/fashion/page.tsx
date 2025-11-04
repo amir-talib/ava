@@ -72,16 +72,16 @@ export default function FashionHomePage() {
                 transition={{ duration: 1, delay: 0.1 }}
               >
                 {/* Subtitle with minimal line */}
-                <motion.div
+            <motion.div
                   initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
                   className="flex items-center gap-3 mb-7"
-                >
+            >
                   <div className="h-px w-8 bg-gradient-to-r from-fashion-400 to-transparent" />
                   <p className="text-xs font-medium uppercase tracking-[0.25em] text-fashion-300 font-sans">
-                    School of Fashion Design
-                  </p>
+                School of Fashion Design
+              </p>
                 </motion.div>
 
                 {/* Main heading with tight spacing */}
@@ -92,8 +92,8 @@ export default function FashionHomePage() {
                   className="text-display-lg lg:text-display-xl font-display font-normal mb-8 text-balance text-white leading-[1.0] tracking-tight"
                   style={{ textShadow: '0 4px 24px rgba(0, 0, 0, 0.4)' }}
                 >
-                  Shape the Future of
-                  <br />
+                Shape the Future of
+                <br />
                   <span className="text-fashion-300 inline-block mt-1">Fashion</span>
                 </motion.h1>
 
@@ -104,7 +104,7 @@ export default function FashionHomePage() {
                   transition={{ duration: 0.8, delay: 0.6 }}
                   className="text-xl lg:text-2xl text-white/85 leading-relaxed mb-12 max-w-xl font-light"
                 >
-                  Transform your creative vision into wearable art with cutting-edge design education and industry expertise.
+                Transform your creative vision into wearable art with cutting-edge design education and industry expertise.
                 </motion.p>
 
                 {/* CTA Buttons with sophisticated styling */}
@@ -119,19 +119,19 @@ export default function FashionHomePage() {
                     size="lg"
                     className="bg-fashion-600 text-white hover:bg-fashion-700 hover:shadow-xl hover:shadow-fashion-600/40 hover:-translate-y-0.5 transition-all duration-300 rounded-none"
                   >
-                    Apply Now
-                  </Button>
+                  Apply Now
+                </Button>
                   <Button 
                     href="/fashion/courses" 
                     variant="secondary" 
                     size="lg"
                     className="border border-white/70 text-white hover:bg-white/5 hover:border-white hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 rounded-none"
                   >
-                    View Programs
-                  </Button>
+                  View Programs
+                </Button>
                 </motion.div>
               </motion.div>
-            </div>
+              </div>
           </div>
         </div>
       </section>
@@ -179,11 +179,11 @@ export default function FashionHomePage() {
               </h2>
               <div className="space-y-6 mb-10">
                 <p className="text-lg text-neutral-600 leading-relaxed">
-                  Our fashion program blends creative expression with technical mastery, preparing you for success in the global fashion industry.
-                </p>
+                Our fashion program blends creative expression with technical mastery, preparing you for success in the global fashion industry.
+              </p>
                 <p className="text-lg text-neutral-600 leading-relaxed">
                   From concept to runway, you&apos;ll work alongside award-winning designers and build a portfolio that opens doors.
-                </p>
+              </p>
               </div>
               <Button href="/fashion/about">
                 Learn More About Our School

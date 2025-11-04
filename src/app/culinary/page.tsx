@@ -72,7 +72,7 @@ export default function CulinaryHomePage() {
                 transition={{ duration: 1, delay: 0.2 }}
               >
                 {/* Subtitle with accent line */}
-                <motion.div
+            <motion.div
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.3 }}
@@ -80,8 +80,8 @@ export default function CulinaryHomePage() {
                 >
                   <div className="h-px w-12 bg-gradient-to-r from-culinary-500 to-transparent" />
                   <p className="text-sm font-medium uppercase tracking-[0.2em] text-culinary-400">
-                    School of Culinary Arts
-                  </p>
+                School of Culinary Arts
+              </p>
                 </motion.div>
 
                 {/* Main heading */}
@@ -92,8 +92,8 @@ export default function CulinaryHomePage() {
                   className="text-display-lg lg:text-display-xl font-display font-normal mb-8 text-balance text-white leading-[1.05]"
                   style={{ textShadow: '0 2px 20px rgba(0, 0, 0, 0.3)' }}
                 >
-                  Master the Art of
-                  <br />
+                Master the Art of
+                <br />
                   <span className="text-culinary-400 inline-block">Gastronomy</span>
                 </motion.h1>
 
@@ -104,7 +104,7 @@ export default function CulinaryHomePage() {
                   transition={{ duration: 0.8, delay: 0.7 }}
                   className="text-xl lg:text-2xl text-white/90 leading-relaxed mb-12 max-w-2xl"
                 >
-                  Transform your passion for food into a distinguished career with world-class training from industry leaders.
+                Transform your passion for food into a distinguished career with world-class training from industry leaders.
                 </motion.p>
 
                 {/* CTA Buttons */}
@@ -119,19 +119,19 @@ export default function CulinaryHomePage() {
                     size="lg"
                     className="bg-culinary-600 text-white hover:bg-culinary-700 hover:shadow-lg hover:shadow-culinary-600/30 hover:-translate-y-0.5 transition-all duration-300"
                   >
-                    Apply Now
-                  </Button>
+                  Apply Now
+                </Button>
                   <Button 
                     href="/culinary/courses" 
                     variant="secondary" 
                     size="lg"
                     className="border-2 border-white/80 text-white hover:bg-white/10 hover:border-white hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
                   >
-                    View Programs
-                  </Button>
+                  View Programs
+                </Button>
                 </motion.div>
               </motion.div>
-            </div>
+              </div>
           </div>
         </div>
       </section>
@@ -179,11 +179,11 @@ export default function CulinaryHomePage() {
               </h2>
               <div className="space-y-6 mb-10">
                 <p className="text-lg text-neutral-600 leading-relaxed">
-                  Our culinary program combines time-honored techniques with innovative approaches, preparing you for success in the dynamic food industry.
-                </p>
+                Our culinary program combines time-honored techniques with innovative approaches, preparing you for success in the dynamic food industry.
+              </p>
                 <p className="text-lg text-neutral-600 leading-relaxed">
                   Trained by award-winning chefs and supported by state-of-the-art facilities, you&apos;ll gain hands-on experience that sets you apart.
-                </p>
+              </p>
               </div>
               <Button href="/culinary/about">
                 Learn More About Our School

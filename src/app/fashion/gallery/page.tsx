@@ -82,10 +82,10 @@ export default function GalleryPage() {
                     />
                   ) : (
                     <div className="w-full h-full bg-gradient-to-br from-fashion-100 to-fashion-200 flex items-center justify-center">
-                      <p className="text-fashion-400 text-sm font-medium text-center px-4">
-                        [{item.title}]
-                      </p>
-                    </div>
+                    <p className="text-fashion-400 text-sm font-medium text-center px-4">
+                      [{item.title}]
+                    </p>
+                  </div>
                   )}
                 </div>
 
