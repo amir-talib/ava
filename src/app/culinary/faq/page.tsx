@@ -207,7 +207,7 @@ export default function FAQPage() {
               Still Have Questions?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Our admissions team is ready to help. Reach out and we'll get back to you within 24 hours.
+              Our admissions team is ready to help. Reach out and we&apos;ll get back to you within 24 hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button href="/culinary/contact" className="bg-white text-culinary-600 hover:bg-neutral-50">

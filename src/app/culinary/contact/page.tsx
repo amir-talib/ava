@@ -50,8 +50,8 @@ export default function ContactPage() {
         <div className="container-custom">
           <PageHeader
             subtitle="Contact Us"
-            title="Let's Start a Conversation"
-            description="Have questions about our programs, admissions, or facilities? We're here to help you begin your culinary journey."
+            title="Let&apos;s Start a Conversation"
+            description="Have questions about our programs, admissions, or facilities? We&apos;re here to help you begin your culinary journey."
           />
         </div>
       </section>

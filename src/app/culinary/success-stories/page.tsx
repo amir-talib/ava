@@ -133,7 +133,7 @@ export default function SuccessStoriesPage() {
                 <Quote className="text-culinary-600 mb-6" size={40} />
                 
                 <blockquote className="text-lg text-neutral-700 leading-relaxed mb-8">
-                  "{story.quote}"
+                  &quot;{story.quote}&quot;
                 </blockquote>
 
                 <div className="border-t border-neutral-200 pt-6">

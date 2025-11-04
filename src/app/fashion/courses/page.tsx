@@ -104,7 +104,7 @@ export default function CoursesPage() {
       <section className="section-spacing">
         <div className="container-custom">
           <div className="space-y-16">
-            {courses.map((course, index) => (
+            {courses.map((course) => (
               <motion.div
                 key={course.id}
                 initial={{ opacity: 0, y: 40 }}

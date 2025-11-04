@@ -182,7 +182,7 @@ export default function FashionHomePage() {
                   Our fashion program blends creative expression with technical mastery, preparing you for success in the global fashion industry.
                 </p>
                 <p className="text-lg text-neutral-600 leading-relaxed">
-                  From concept to runway, you'll work alongside award-winning designers and build a portfolio that opens doors.
+                  From concept to runway, you&apos;ll work alongside award-winning designers and build a portfolio that opens doors.
                 </p>
               </div>
               <Button href="/fashion/about">

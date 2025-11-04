@@ -40,13 +40,6 @@ export default function AboutPage() {
     },
   ]
 
-  const milestones = [
-    { year: '2024', event: 'Academy Founded' },
-    { year: '2024', event: 'State-of-the-Art Facilities Established' },
-    { year: '2024', event: 'Industry Partnerships Formed' },
-    { year: '2024', event: 'Expert Faculty Assembled' },
-  ]
-
   return (
     <div>
       {/* Hero */}
@@ -86,7 +79,7 @@ export default function AboutPage() {
                   become successful professionals, innovators, and entrepreneurs.
                 </p>
                 <p>
-                  As a new academy, we're building our community from the ground up, focusing on
+                  As a new academy, we&apos;re building our community from the ground up, focusing on
                   quality education, industry connections, and practical skills that prepare you
                   for success in your chosen field.
                 </p>

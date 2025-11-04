@@ -182,7 +182,7 @@ export default function CulinaryHomePage() {
                   Our culinary program combines time-honored techniques with innovative approaches, preparing you for success in the dynamic food industry.
                 </p>
                 <p className="text-lg text-neutral-600 leading-relaxed">
-                  Trained by award-winning chefs and supported by state-of-the-art facilities, you'll gain hands-on experience that sets you apart.
+                  Trained by award-winning chefs and supported by state-of-the-art facilities, you&apos;ll gain hands-on experience that sets you apart.
                 </p>
               </div>
               <Button href="/culinary/about">
@@ -263,7 +263,7 @@ export default function CulinaryHomePage() {
                 </p>
                 {'tagline' in program && program.tagline && (
                   <p className="text-sm font-medium text-culinary-600 italic mb-6 leading-relaxed">
-                    "{program.tagline}"
+                    &quot;{program.tagline}&quot;
                   </p>
                 )}
                 <ul className="space-y-3 mb-8">

@@ -101,7 +101,7 @@ export default function CoursesPage() {
       <section className="section-spacing">
         <div className="container-custom">
           <div className="space-y-16">
-            {courses.map((course, index) => (
+            {courses.map((course) => (
               <motion.div
                 key={course.id}
                 initial={{ opacity: 0, y: 40 }}
@@ -121,7 +121,7 @@ export default function CoursesPage() {
                       </h2>
                       {course.tagline && (
                         <p className="text-lg text-culinary-600 font-medium italic mb-4">
-                          "{course.tagline}"
+                          &quot;{course.tagline}&quot;
                         </p>
                       )}
                       <p className="text-lg text-neutral-600 leading-relaxed">

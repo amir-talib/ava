@@ -268,8 +268,8 @@ export default function AdmissionsPage() {
                     <option value="">Select education level</option>
                     <option value="secondary">Secondary School</option>
                     <option value="diploma">Diploma</option>
-                    <option value="bachelors">Bachelor's Degree</option>
-                    <option value="masters">Master's Degree</option>
+                    <option value="bachelors">Bachelor&apos;s Degree</option>
+                    <option value="masters">Master&apos;s Degree</option>
                   </select>
                 </div>
 
