@@ -73,7 +73,7 @@
 
   /* Button base */
   .btn-base {
-    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium transition-all duration-200 rounded-sm;
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-sans font-medium transition-all duration-200 rounded-sm;
   }
 
   .btn-primary {
