@@ -8,9 +8,9 @@ import { Button } from '@/components/ui/Button'
 
 export default function FashionHomePage() {
   const stats = [
-    { label: 'Industry Partners', value: '60+' },
-    { label: 'Expert Instructors', value: '20+' },
-    { label: 'Professional Programs', value: '3+' },
+    { label: 'Industry Partners', value: '5+' },
+    { label: 'Expert Instructors', value: '5' },
+    { label: 'Professional Programs', value: '3' },
     { label: 'Hands-On Training', value: '100%' },
   ]
 

@@ -248,9 +248,9 @@ export default function AdmissionsPage() {
                     className="w-full px-4 py-3 border border-neutral-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-culinary-600 focus:border-transparent"
                   >
                     <option value="">Select intake date</option>
-                    <option value="jan-2025">January 2025</option>
-                    <option value="apr-2025">April 2025</option>
-                    <option value="sep-2025">September 2025</option>
+                    <option value="jan-2026">January 2026</option>
+                    <option value="apr-2026">April 2026</option>
+                    <option value="sep-2026">September 2026</option>
                   </select>
                 </div>
 
