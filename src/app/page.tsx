@@ -124,7 +124,7 @@ export default function LandingPage() {
                         </h2>
                     
                     <p className="text-base md:text-lg text-white/80 mb-6 md:mb-8 leading-relaxed px-2">
-                      Master the art of gastronomy with world-class training
+                      Learn real kitchen skills with friendly chef mentors
                         </p>
                     
                     <div className="inline-flex items-center gap-2 md:gap-3 text-white font-medium px-6 md:px-8 py-3 md:py-4 text-sm md:text-base border border-white/30 backdrop-blur-sm bg-white/5 group-hover:bg-culinary-600 group-hover:border-culinary-600 transition-all duration-300">
@@ -178,7 +178,7 @@ export default function LandingPage() {
                         </h2>
                     
                     <p className="text-base md:text-lg text-white/80 mb-6 md:mb-8 leading-relaxed font-light px-2">
-                      Shape the future with cutting-edge design education
+                      Bring bold fashion ideas to life with expert guidance
                         </p>
                     
                     <div className="inline-flex items-center gap-2 md:gap-3 text-white font-medium px-6 md:px-8 py-3 md:py-4 text-sm md:text-base border border-white/30 backdrop-blur-sm bg-white/5 group-hover:bg-fashion-600 group-hover:border-fashion-600 transition-all duration-300 rounded-none">
