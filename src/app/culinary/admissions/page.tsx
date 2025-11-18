@@ -25,7 +25,7 @@ export default function AdmissionsPage() {
   }
 
   const requirements = [
-    'Minimum age of 18 years',
+    'Minimum age of 16 years',
     'Secondary school certificate or equivalent',
     'Passion for culinary arts',
     'Basic English proficiency',
@@ -57,7 +57,7 @@ export default function AdmissionsPage() {
 
   const programs = [
     { value: 'cake-baking-decoration', label: 'Cake Baking & Decoration Course' },
-    { value: 'cake-bread-pastry', label: 'Cake, Bread & Pastry Course' },
+    { value: 'bread-pastry', label: 'Bread & Pastry Course' },
     { value: 'catering', label: 'Catering Course' },
   ]
 

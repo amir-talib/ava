@@ -101,8 +101,8 @@ export function Footer({ discipline }: FooterProps) {
               </li>
               <li className="flex items-center space-x-2">
                 <Phone size={16} className="flex-shrink-0" />
-                <a href="tel:+2348142980728" className="hover:text-white transition-colors">
-                  +234 814 298 0728
+                <a href="tel:+2347014552741" className="hover:text-white transition-colors">
+                  +234 701 455 2741
                 </a>
               </li>
               <li className="flex items-center space-x-2">

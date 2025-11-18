@@ -25,7 +25,7 @@ export default function AdmissionsPage() {
   }
 
   const requirements = [
-    'Minimum age of 18 years',
+    'Minimum age of 16 years',
     'Secondary school certificate or equivalent',
     'Creative portfolio (sketches, designs, or mood boards)',
     'Basic English proficiency',

@@ -17,21 +17,21 @@ export default function CulinaryHomePage() {
   const programs = [
     {
       title: 'Cake Baking & Decoration Course',
-      duration: 'Varies',
+      duration: '6 Weeks',
       description: 'Focus on creativity and artistry in cake making. Hands-on program with professional techniques suitable for aspiring business owners or home bakers.',
       highlights: ['Baking perfect, moist cakes', 'Elegant frosting techniques', 'Piping skills', 'Fondant design'],
       tagline: 'Bake. Create. Decorate. Impress — the Ace way!',
     },
     {
-      title: 'Cake, Bread & Pastry Course',
-      duration: 'Comprehensive Program',
-      description: 'Comprehensive baking program covering cakes, breads, and pastries. Step-by-step hands-on training with expert instructors.',
+      title: 'Bread & Pastry Course',
+      duration: '6 Weeks',
+      description: 'Comprehensive baking program covering breads and pastries. Step-by-step hands-on training with expert instructors.',
       highlights: ['Texture mastery', 'Flavor development', 'Design techniques', 'Professional creation methods'],
       tagline: 'Bake with confidence. Create with passion. Rise to excellence — the Ace way!',
     },
     {
       title: 'Catering Course',
-      duration: 'Comprehensive Program',
+      duration: '3 Months',
       description: 'Comprehensive practical training for the catering and hospitality industry. Hands-on experience with professional catering standards.',
       highlights: ['Menu planning', 'Food preparation', 'Presentation techniques', 'Event service management'],
     },

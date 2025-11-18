@@ -29,7 +29,7 @@ export default function ContactPage() {
     {
       icon: <Phone className="text-fashion-600" size={24} />,
       title: 'Call Us',
-      details: ['+234 814 298 0728', '(Mon - Sat, 9am - 5pm)'],
+      details: ['+234 701 455 2741', '(Mon - Sat, 9am - 5pm)'],
     },
     {
       icon: <Mail className="text-fashion-600" size={24} />,

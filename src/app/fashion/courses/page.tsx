@@ -10,9 +10,9 @@ export default function CoursesPage() {
     {
       id: 'foundation-course',
       title: 'Foundation Course',
-      duration: '6 Months',
+      duration: '3 Months',
       level: 'Beginner',
-      students: 'Max 18',
+      students: 'Max 10',
       intakes: 'Jan, Apr, Sep',
       tuition: 'Contact for Pricing',
       description: 'Perfect for beginners starting their fashion design journey. Learn fundamental skills including basic pattern making, sewing techniques, fabric knowledge, and design principles.',
@@ -36,10 +36,10 @@ export default function CoursesPage() {
     {
       id: 'intermediate-course',
       title: 'Intermediate Course',
-      duration: '9 Months',
+      duration: '3 Months',
       level: 'Intermediate',
-      students: 'Max 15',
-      intakes: 'Feb, Jul, Oct',
+      students: 'Max 10',
+      intakes: 'Jan, Apr, Sep',
       tuition: 'Contact for Pricing',
       description: 'Build on your foundational skills with advanced techniques. Develop expertise in complex pattern making, draping, tailoring, and professional garment construction.',
       curriculum: [
@@ -62,10 +62,10 @@ export default function CoursesPage() {
     {
       id: 'advanced-course',
       title: 'Advanced Course',
-      duration: '12 Months',
+      duration: '3 Months',
       level: 'Professional',
-      students: 'Max 12',
-      intakes: 'Jan, Sep',
+      students: 'Max 10',
+      intakes: 'Jan, Apr, Sep',
       tuition: 'Contact for Pricing',
       description: 'Achieve professional mastery with industry-level training. Focus on runway collections, couture techniques, brand development, and entrepreneurial skills.',
       curriculum: [
