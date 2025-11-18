@@ -94,7 +94,7 @@ export default function CulinaryHomePage() {
                 >
                 Master the Art of
                 <br />
-                  <span className="text-culinary-400 inline-block">Gastronomy</span>
+                  <span className="text-culinary-400 inline-block">Cooking</span>
                 </motion.h1>
 
                 {/* Description */}
