@@ -48,7 +48,7 @@ export function Navigation({ discipline }: NavigationProps) {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-2">
+          <div className="hidden lg:flex items-center space-x-1">
             {navigationItems.map((item) => {
               const isActive = pathname === item.href
               return (
@@ -56,10 +56,10 @@ export function Navigation({ discipline }: NavigationProps) {
                   key={item.href}
                   href={item.href}
                   className={cn(
-                    'px-5 py-2.5 text-sm font-display font-normal transition-colors rounded-sm',
+                    'px-6 py-3 text-base font-display font-medium transition-colors rounded-sm',
                     isActive
                       ? accentColor
-                      : 'text-neutral-600 hover:text-neutral-900'
+                      : 'text-neutral-700 hover:text-neutral-900'
                   )}
                 >
                   {item.label}
@@ -72,7 +72,7 @@ export function Navigation({ discipline }: NavigationProps) {
           <div className="hidden lg:block">
             <Link
               href={`${basePath}/admissions`}
-              className="btn-primary font-sans text-sm px-6 py-2.5"
+              className="btn-primary font-sans text-base px-8 py-3 font-medium"
             >
               Apply Now
             </Link>
