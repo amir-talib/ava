@@ -13,7 +13,7 @@ export default function LandingPage() {
     name: 'Ace Vocational Academy',
     description: 'Industry-leading institution offering world-class Culinary and Fashion programs. Transform your passion into profession.',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://acevocationalacademy.com',
-    logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://acevocationalacademy.com'}/favicon.png`,
+    logo: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://acevocationalacademy.com'}/avanew.png`,
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'NG',
@@ -48,11 +48,11 @@ export default function LandingPage() {
         <div className="container-custom py-4 md:py-5 lg:py-6">
           <Link href="/" className="flex items-center justify-center space-x-2 md:space-x-3">
             <Image
-              src="/ava-logo-dark.png"
+              src="/avanew.png"
               alt="Ace Vocational Academy"
-              width={36}
-              height={36}
-              className="object-contain md:w-11 md:h-11"
+              width={48}
+              height={48}
+              className="object-contain md:w-14 md:h-14"
               priority
             />
             <span className="text-base md:text-lg lg:text-xl font-semibold tracking-tight text-white">

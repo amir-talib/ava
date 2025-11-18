@@ -35,10 +35,10 @@ export function Navigation({ discipline }: NavigationProps) {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
             <Image
-              src="/ava-logo.png"
+              src="/avanew.png"
               alt="Ace Vocational Academy"
-              width={44}
-              height={44}
+              width={56}
+              height={56}
               className="object-contain"
               priority
             />
