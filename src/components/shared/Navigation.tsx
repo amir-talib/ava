@@ -56,7 +56,7 @@ export function Navigation({ discipline }: NavigationProps) {
                   key={item.href}
                   href={item.href}
                   className={cn(
-                    'px-5 py-2.5 text-sm font-sans font-medium transition-colors rounded-sm',
+                    'px-5 py-2.5 text-sm font-display font-normal transition-colors rounded-sm',
                     isActive
                       ? accentColor
                       : 'text-neutral-600 hover:text-neutral-900'
@@ -100,7 +100,7 @@ export function Navigation({ discipline }: NavigationProps) {
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
                     className={cn(
-                      'px-4 py-3.5 text-base font-sans font-medium transition-colors rounded-sm',
+                      'px-4 py-3.5 text-base font-display font-normal transition-colors rounded-sm',
                       isActive
                         ? accentColor
                         : 'text-neutral-600 hover:text-neutral-900 hover:bg-neutral-50'
